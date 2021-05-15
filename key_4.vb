@@ -6,5 +6,5 @@ If (x.SelectSingleNode("//input[@number='" & (x.SelectSingleNode("//preview").In
 	API.Function("SetLayer", 0, "3,8")
 	API.Function("SetLayer", 0, "4,10")
 	API.Function("SetLayer", 0, "5,11")
-	API.Function("SetLayer", 0, "5,12")
+	API.Function("SetLayer", 0, "6,12")
 End if
