@@ -4,6 +4,7 @@ x.loadxml(xml)
 
 If (x.SelectSingleNode("//input[@number='" & (x.SelectSingleNode("//preview").InnerText) & "']/@shortTitle").Value).Contains("🎥 Speaker ")
 	API.Function("SetLayer", 0, "4,11")
+	API.Function("SetLayer", 0, "10,11")
 End if
 
 If (x.SelectSingleNode("//input[@number='" & (x.SelectSingleNode("//preview").InnerText) & "']/@shortTitle").Value).Contains("1+2 --")
